@@ -33,4 +33,23 @@ function recorrerAmigos(){
 
     }
     console.log(amigos);
-}
+};
+
+function sortearAmigo(){
+    //validar que haya amigos
+    if (amigos.length === 0){
+        alert("No hay amigos para sortear");
+    }
+    //sortear amigo
+    else{
+        let indice = Math.floor(Math.random() * amigos.length);
+        let amigo = amigos[indice];
+
+        console.log(indice);
+        console.log(amigo);
+
+        //mostrar amigo sorteado
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = "El amigo sorteado es: " + amigo;
+    }
+};
