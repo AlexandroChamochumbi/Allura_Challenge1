@@ -16,5 +16,21 @@ function agregarAmigo(){
         console.log(amigos);
         //limpiar input
         amigo.value = "";
+        //mostrar amigos
+        recorrerAmigos();
     }
+    };
+
+function recorrerAmigos(){
+    //agregar amigos a la lista
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = ""; //limpiar lista
+    for (let i = 0; i < amigos.length; i++){
+        let li = document.createElement("li");
+        li.innerText = amigos[i];
+        lista.append(li);
+        console.log(li);
+
     }
+    console.log(amigos);
+}
