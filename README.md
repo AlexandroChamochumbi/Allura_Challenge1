@@ -48,3 +48,8 @@ amigo-secreto/
      -  Si el campo está vacío, se mostrará una alerta.
      - Los amigos ingresados aparecerán en la lista.
  ---
+
+## 🌐 Demo en GitHub Pages
+
+Puedes probar el proyecto directamente aquí:  
+👉 [Amigo Secreto – GitHub Pages](https://alexandrochamochumbi.github.io/Allura_Challenge1/)
